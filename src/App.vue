@@ -1,9 +1,10 @@
 <!--
- * @Description:
- * @Author: whyjs
+ * @Descripttion: 主文件
+ * @version: 阿撒
+ * @Author: sueRimn
  * @Date: 2020-08-13 13:16:16
- * @LastEditTime: 2020-08-13 13:44:04
- * @LastEditors: whyjs
+ * @LastEditors: sueRimn
+ * @LastEditTime: 2020-08-13 16:02:23
 -->
 <template>
   <div id="app">
@@ -11,7 +12,9 @@
       <router-link to="/">
         Home
       </router-link>
-      <router-link to="/about"> About</router-link>
+      <router-link to="/about">
+        About
+      </router-link>
     </div>
     <router-view />
   </div>
